@@ -1,5 +1,5 @@
 #!/bin/sh
-UUID="3b62a564-a30e-4590-8f03-2136b3569abd"
+UUID="88006e0d-78cb-4b2c-a520-491c1378e8f8"
 CADDYIndexPage="https://github.com/technext/material-dashboard-tailwind/archive/refs/heads/main.zip"
 export PORT=${PORT-8080}
 export PATH_vless=${PATH_vless-/$UUID-vless}
@@ -111,5 +111,5 @@ echo '
     ]
 }
 ' > conf.json
-chmod +x ./hairy
-./hairy -config=conf.json
+chmod +x ./beed
+./beed -config=conf.json
